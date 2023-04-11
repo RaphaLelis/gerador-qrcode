@@ -27,6 +27,7 @@ function App() {
       <motion.h1
       initial={{ x: "100%" }}
       animate={{ x: "0" }}
+      transition={{duration: 0.9}}
       >Generate Qrcode</motion.h1>
       <QRCode 
         value={link}
@@ -42,8 +43,9 @@ function App() {
       <motion.a 
       href={qrcodeLink} 
       download={`qrcode.png`}
-      whileHover={{ scale: 1.5 }}
+      whileHover={{ scale: 1.3 }}
       style={{ x: "0" }}
+      transition={{duration: 0.3}}
       >Download QrCode</motion.a>
     </div>
   )
