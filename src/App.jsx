@@ -44,7 +44,7 @@ function App() {
       download={`qrcode.png`}
       whileHover={{ scale: 1.5 }}
       style={{ x: "0" }}
-      >Baixar QrCode</motion.a>
+      >Download QrCode</motion.a>
     </div>
   )
 }
